@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    height:400px;
+     
+}
+
+.item{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title{
+    font-size: 48px;
+    background: linear-gradient(to bottom , palevioletred, yellow );
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+
+}
+.img{
+    width:750px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.des{
+    font-size: 24px;
+    font-weight: 300;
+
+}
+
+.button{
+    padding: 10px;
+    cursor: pointer;
+    background-color:palevioletred ;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    width: max-content;
+}
+
+
+
